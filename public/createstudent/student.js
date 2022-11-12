@@ -22,6 +22,7 @@ function select(event){
     selectValue=value
 }
 window.addStudent = async function(){
+    window.location.href="../home.html"
     const name = document.getElementById('name').value
     const fathername = document.getElementById('father-name').value
     const rollNo = document.getElementById('roll-no').value
@@ -33,7 +34,7 @@ window.addStudent = async function(){
     try{
         const imageUrl = await uploadImage(image)
         await addStudentToDb(name,fathername,contactNo,rollNo,cnic,courseName,imageUrl,selectValue)
-        window.location.href="../home.html"
+    
     }catch(e){
         console.log('e',e.message)
     }
