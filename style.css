@@ -167,3 +167,30 @@ a{
     width: 150px;
     height: 20px;
 }
+.attend-main{
+    display: flex;
+    justify-content: center;
+}
+.attend-head{
+    color: aliceblue;
+    text-align: center;
+}
+.searchs{
+    display: flex;
+    justify-content: center;
+}
+.id-card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.id-img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 200px;
+}
+.img{
+    padding: 20px;
+}
