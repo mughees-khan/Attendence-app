@@ -12,17 +12,18 @@
 
 <body class="home-maim-pg">
     <div class="home-page">
-        <h5 class="headers">Home</h5>
+        <h5 class="headers active-home">Home</h5>
         <div><input class="student-searcher" type="text" placeholder="search" id="student-roll-no"><img
                 class="search-icon" src="images/search icon.png" alt="search icon"></div>
         <a href="login/login.html">
             <h5 class="headers">login</h5>
         </a>
-        <h5 class="headers">Add Class</h5>
+        <a href="createclass/class.html"><h5 class="headers">Add Class</h5></a>
         <h5 class="headers">Add student</h5>
 
     </div>
 </body>
-<script src="app.js"></script>
 
+<script type="module" src="config/firebase.js"></script>
+<script type="module" src="createclass/class.js"></script>
 </html>
